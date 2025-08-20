@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty and Officers | BU CSE Department</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=League+Spartan:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="top-header bg-white py-1 border-bottom">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href="index.html" class="navbar-brand"><img src="dept_logo.jpg" alt="Department Logo"></a>
+            <div class="header-title">Department of Computer Science and Engineering<br>University of Barishal</div>
+            <a href="https://bu.ac.bd" target="_blank" class="university-logo"><img src="bu_logo.png" alt="University Logo"></a>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark main-navbar sticky-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="faculty.html">Faculty</a></li>
+                    <li class="nav-item"><a class="nav-link" href="programs.html">Programs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
+                    <li class="nav-item"><a class="nav-link" href="students.html">Students</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    
+    <main>
+        <section class="page-banner faculty-banner text-white text-center">
+            <div class="container">
+                <h1 class="display-4"><strong>FACULTY MEMBERS AND OFFICERS</strong></h1>
+                <p class="lead">Meet the dedicated faculty members and officers of our department.</p>
+            </div>
+        </section>
+
+        <section class="container py-5">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="sidebar-menu">
+                        <h4>People</h4>
+                        <ul>
+                            <li><a href="#" class="active" data-content="faculty">Faculty Members</a></li>
+                            <li><a href="#" data-content="officer">Officers</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-9">
+                    <h2 id="content-title" class="section-title mb-4"><span>Faculty Members</span></h2>
+
+                    <div id="faculty-content" class="content-wrapper">
+                        <ul class="nav nav-tabs faculty-tabs" id="facultyTab" role="tablist">
+                            <li class="nav-item" role="presentation"><button class="nav-link active" data-bs-toggle="tab" data-bs-target="#head-tab-pane" type="button">Head</button></li>
+                            <li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#associate-tab-pane" type="button">Associate Professor</button></li>
+                            <li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#assistant-tab-pane" type="button">Assistant Professor</button></li>
+                        </ul>
+                        <div class="tab-content" id="facultyTabContent">
+                            <div class="tab-pane fade show active" id="head-tab-pane" role="tabpanel">
+                                <div class="faculty-card-detailed">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-2 col-md-3 text-center"><img src="https://apps.piit.us/barishal-university/v2/uploads/department_chairman/2025-03-16-467240_568803209.jpg" class="faculty-photo" alt="Dr. Rahat Hossain Faisal"></div>
+                                        <div class="col-lg-6 col-md-5">
+                                            <div class="faculty-info">
+                                                <h5 class="faculty-name">Dr. Rahat Hossain Faisal</h5>
+                                                <p class="faculty-designation">Department Head</p>
+                                                <p class="faculty-department">Dept. of Computer Science and Engineering</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4">
+                                            <div class="faculty-contact-info">
+                                                <p><i class="fas fa-phone me-2"></i> 01733977761</p>
+                                                <p><i class="fas fa-envelope me-2"></i> <a href="mailto:chair_cse@bu.ac.bd">chair_cse@bu.ac.bd</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="associate-tab-pane" role="tabpanel">
+                                <div class="faculty-card-detailed">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-2 col-md-3 text-center"><img src="https://apps.piit.us/barishal-university/v2/uploads/teacher/staff/2025-02-23-f7a661_673355194.jpg" class="faculty-photo" alt="Dr. Rahat Hossain Faisal"></div>
+                                        <div class="col-lg-6 col-md-5">
+                                            <div class="faculty-info">
+                                                <h5 class="faculty-name">Dr. Rahat Hossain Faisal</h5>
+                                                <p class="faculty-designation">Associate Professor</p>
+                                                <p class="faculty-department">Dept. of Computer Science and Engineering</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4">
+                                            <div class="faculty-contact-info">
+                                                <p><i class="fas fa-phone me-2"></i> 01733977761</p>
+                                                <p><i class="fas fa-envelope me-2"></i> <a href="mailto:rhfaisal@bu.ac.bd">rhfaisal@bu.ac.bd</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="faculty-card-detailed">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-2 col-md-3 text-center"><img src="https://apps.piit.us/barishal-university/v2/uploads/teacher/staff/2025-02-25-26e471_584637209.jpg" class="faculty-photo" alt="Dr. Md Manjur Ahmed"></div>
+                                        <div class="col-lg-6 col-md-5">
+                                            <div class="faculty-info">
+                                                <h5 class="faculty-name">Dr. Md Manjur Ahmed</h5>
+                                                <p class="faculty-designation">Associate Professor</p>
+                                                <p class="faculty-department">Dept. of Computer Science and Engineering</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4">
+                                            <div class="faculty-contact-info">
+                                                <p><i class="fas fa-phone me-2"></i> 01851924944</p>
+                                                <p><i class="fas fa-envelope me-2"></i> <a href="mailto:mmahmed@bu.ac.bd">mmahmed@bu.ac.bd</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="assistant-tab-pane" role="tabpanel">
+                                <div class="faculty-card-detailed">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-2 col-md-3 text-center"><img src="https://apps.piit.us/barishal-university/v2/uploads/teacher/staff/2025-02-25-658a75_781761084.jpg" class="faculty-photo" alt="Md. Erfan"></div>
+                                        <div class="col-lg-6 col-md-5">
+                                            <div class="faculty-info">
+                                                <h5 class="faculty-name">Md. Erfan</h5>
+                                                <p class="faculty-designation">Assistant Professor</p>
+                                                <p class="faculty-department">Dept. of Computer Science and Engineering</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4">
+                                            <div class="faculty-contact-info">
+                                                <p><i class="fas fa-phone me-2"></i> Not Available</p>
+                                                <p><i class="fas fa-envelope me-2"></i> Not Available</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="faculty-card-detailed">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-2 col-md-3 text-center"><img src="https://apps.piit.us/barishal-university/v2/uploads/teacher/staff/2025-02-25-075419_248249742.jpg" class="faculty-photo" alt="Md Mostafijur Rahman"></div>
+                                        <div class="col-lg-6 col-md-5">
+                                            <div class="faculty-info">
+                                                <h5 class="faculty-name">Md Mostafijur Rahman</h5>
+                                                <p class="faculty-designation">Assistant Professor</p>
+                                                <p class="faculty-department">Dept. of Computer Science and Engineering</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4">
+                                            <div class="faculty-contact-info">
+                                                <p><i class="fas fa-phone me-2"></i> 01739097182</p>
+                                                <p><i class="fas fa-envelope me-2"></i> <a href="mailto:mostafij.csebu@gmail.com">mostafij.csebu@gmail.com</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="faculty-card-detailed">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-2 col-md-3 text-center"><img src="https://apps.piit.us/barishal-university/v2/uploads/teacher/staff/2025-02-25-5652a9_627783683.jpg" class="faculty-photo" alt="Md Samsuddoha"></div>
+                                        <div class="col-lg-6 col-md-5">
+                                            <div class="faculty-info">
+                                                <h5 class="faculty-name">Md Samsuddoha</h5>
+                                                <p class="faculty-designation">Assistant Professor</p>
+                                                <p class="faculty-department">Dept. of Computer Science and Engineering</p>
+                                                <div class="faculty-research-interest">
+                                                    <strong>Research Interest:</strong> Software Engineering, Machine Learning, Deep Learning, NLP, Large Language Models (LLM)
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4">
+                                            <div class="faculty-contact-info">
+                                                <p><i class="fas fa-phone me-2"></i> 01737349075</p>
+                                                <p><i class="fas fa-envelope me-2"></i> <a href="mailto:msamsuddoha@bu.ac.bd">msamsuddoha@bu.ac.bd</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="faculty-card-detailed">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-2 col-md-3 text-center"><img src="https://apps.piit.us/barishal-university/v2/uploads/teacher/staff/2025-02-25-db89e0_737994158.jpg" class="faculty-photo" alt="Dr. Tania Islam"></div>
+                                        <div class="col-lg-6 col-md-5">
+                                            <div class="faculty-info">
+                                                <h5 class="faculty-name">Dr. Tania Islam</h5>
+                                                <p class="faculty-designation">Assistant Professor</p>
+                                                <p class="faculty-department">Dept. of Computer Science and Engineering</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4">
+                                            <div class="faculty-contact-info">
+                                                <p><i class="fas fa-phone me-2"></i> 01059505136</p>
+                                                <p><i class="fas fa-envelope me-2"></i> <a href="mailto:tania.bd.09@gmail.com">tania.bd.09@gmail.com</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="faculty-card-detailed">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-2 col-md-3 text-center"><img src="https://apps.piit.us/barishal-university/v2/uploads/teacher/staff/2025-02-25-0bc94e_367682905.jpg" class="faculty-photo" alt="Sohely Jahan"></div>
+                                        <div class="col-lg-6 col-md-5">
+                                            <div class="faculty-info">
+                                                <h5 class="faculty-name">Sohely Jahan</h5>
+                                                <p class="faculty-designation">Assistant Professor</p>
+                                                <p class="faculty-department">Dept. of Computer Science and Engineering</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4">
+                                            <div class="faculty-contact-info">
+                                                <p><i class="fas fa-phone me-2"></i> 01317419066</p>
+                                                <p><i class="fas fa-envelope me-2"></i> <a href="mailto:sojahan@bu.ac.bd">sojahan@bu.ac.bd</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="faculty-card-detailed">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-2 col-md-3 text-center"><img src="https://apps.piit.us/barishal-university/v2/uploads/teacher/staff/2025-02-25-6b92b1_730709608.jpg" class="faculty-photo" alt="Md. Rashid Al Asif"></div>
+                                        <div class="col-lg-6 col-md-5">
+                                            <div class="faculty-info">
+                                                <h5 class="faculty-name">Md. Rashid Al Asif</h5>
+                                                <p class="faculty-designation">Assistant Professor</p>
+                                                <p class="faculty-department">Dept. of Computer Science and Engineering</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4">
+                                            <div class="faculty-contact-info">
+                                                <p><i class="fas fa-phone me-2"></i> 01734528367</p>
+                                                <p><i class="fas fa-envelope me-2"></i> <a href="mailto:mraasif@bu.ac.bd">mraasif@bu.ac.bd</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="faculty-card-detailed">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-2 col-md-3 text-center"><img src="https://apps.piit.us/barishal-university/v2/uploads/teacher/staff/2025-03-12-cd260b_210955810.png" class="faculty-photo" alt="Md Mahbub E Noor"></div>
+                                        <div class="col-lg-6 col-md-5">
+                                            <div class="faculty-info">
+                                                <h5 class="faculty-name">Md Mahbub E Noor</h5>
+                                                <p class="faculty-designation">Assistant Professor</p>
+                                                <p class="faculty-department">Dept. of Computer Science and Engineering</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4">
+                                            <div class="faculty-contact-info">
+                                                <p><i class="fas fa-phone me-2"></i> 8801718916201</p>
+                                                <p><i class="fas fa-envelope me-2"></i> <a href="mailto:mmenoor@bu.ac.bd">mmenoor@bu.ac.bd</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="officer-content" class="content-wrapper" style="display: none;">
+                        <ul class="nav nav-tabs faculty-tabs" id="officerTab" role="tablist">
+                            <li class="nav-item" role="presentation"><button class="nav-link active" data-bs-toggle="tab" data-bs-target="#section-officer-pane" type="button">Section Officer</button></li>
+                            <li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#engineer-pane" type="button">Junior Instrument Engineer</button></li>
+                        </ul>
+                        <div class="tab-content" id="officerTabContent">
+                            <div class="tab-pane fade show active" id="section-officer-pane" role="tabpanel">
+                                <div class="faculty-card-detailed">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-2 col-md-3 text-center"><img src="https://apps.piit.us/barishal-university/v2/uploads/teacher/staff/2025-02-25-72e549_846388820.jpg" class="faculty-photo" alt="Farjana Yesmin"></div>
+                                        <div class="col-lg-6 col-md-5">
+                                            <div class="faculty-info">
+                                                <h5 class="faculty-name">Farjana Yesmin</h5>
+                                                <p class="faculty-designation">Section Officer</p>
+                                                <p class="faculty-department">Dept. of Computer Science and Engineering</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4">
+                                            <div class="faculty-contact-info">
+                                                <p><i class="fas fa-phone me-2"></i> 01783917785</p>
+                                                <p><i class="fas fa-envelope me-2"></i> <a href="mailto:yesminfarjana61@gmail.com">yesminfarjana61@gmail.com</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="engineer-pane" role="tabpanel">
+                                <div class="faculty-card-detailed">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-2 col-md-3 text-center"><img src="https://apps.piit.us/barishal-university/v2/uploads/teacher/staff/2025-03-12-3160be_230560286.jpg" class="faculty-photo" alt="Abu Rayhan"></div>
+                                        <div class="col-lg-6 col-md-5">
+                                            <div class="faculty-info">
+                                                <h5 class="faculty-name">Abu Rayhan</h5>
+                                                <p class="faculty-designation">Junior Instrument Engineer</p>
+                                                <p class="faculty-department">Dept. of Computer Science and Engineering</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4">
+                                            <div class="faculty-contact-info">
+                                                <p><i class="fas fa-phone me-2"></i> 01771451204</p>
+                                                <p><i class="fas fa-envelope me-2"></i> <a href="mailto:arayhan@bu.ac.bd">arayhan@bu.ac.bd</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container text-center text-md-left">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                    <h5 class="text-uppercase mb-4">CSE Department</h5>
+                    <p>Creating the next generation of innovators and leaders in the field of computer science and engineering through excellence in education and research leaded by our excellent faculty.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 quick-links">
+                    <h5 class="text-uppercase mb-4">Quick Links</h5>
+                    <div class="quick-links-list">
+                    <p><a href="about.html"><i class="ri-arrow-right-s-fill"></i> About</a></p>
+                    <p><a href="programs.html"><i class="ri-arrow-right-s-fill"></i> Programs</a></p>
+                    <p><a href="faculty.html"><i class="ri-arrow-right-s-fill"></i> Faculty</a></p>
+                    <p><a href="contact.html"><i class="ri-arrow-right-s-fill"></i> Contact</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <h5 class="text-uppercase mb-4">University of Barishal</h5>
+                    <p><i class="fas fa-home me-3"></i> Kornokathi, Barishal-8254, Bangladesh</p>
+                    <p><i class="fas fa-envelope me-3"></i> registrar@bu.ac.bd</p>
+                    <p><i class="fas fa-phone me-3"></i> 0431-2177771-77</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="mb-2 d-inline-block me-3">© 2025 Copyright:
+                        <a href="index.html">
+                            <strong>University of Barishal. All Rights Reserved.</strong>
+                        </a>
+                    </p>
+                    <ul class="list-unstyled list-inline mb-0 d-inline-block">
+                        <li class="list-inline-item"><a href="https://www.facebook.com/bu" class="btn-floating btn-sm" style="font-size: 23px;"><i class="fab fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.linkedin.com/bu" class="btn-floating btn-sm" style="font-size: 23px;"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.youtube.com/bu" class="btn-floating btn-sm" style="font-size: 23px;"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
